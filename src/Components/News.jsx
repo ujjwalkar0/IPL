@@ -1,13 +1,14 @@
 import React from 'react';
 import '../App.css';
-import { List, Avatar, Space } from 'antd';
+import { List, Space } from 'antd';
 import { MessageOutlined, LikeOutlined, StarOutlined } from '@ant-design/icons';
+import IPL from './image/ipl.jpg'
 
 const listData = [];
 for (let i = 0; i < 23; i++) {
   listData.push({
     title: `News ${i}`,
-    avatar: 'https://zos.alipayobjects.com/rmsportal/ODTLcjxAfvqbxHnVXCYX.png',
+    // avatar: 'https://zos.alipayobjects.com/rmsportal/ODTLcjxAfvqbxHnVXCYX.png',
     description:
       'Ipl News.',
     content:
@@ -47,12 +48,12 @@ function News(){
           <img
             width={272}
             alt="logo"
-            src="https://gw.alipayobjects.com/zos/rmsportal/mqaQswcyDLcXyDKnZfES.png"
+            src={IPL}
           />
         }
       >
         <List.Item.Meta
-          avatar={<Avatar src={item.avatar} />}
+          // avatar={<Avatar src={item.avatar} />}
           title={<a href={item.href}>{item.title}</a>}
           description={item.description}
         />
