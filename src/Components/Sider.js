@@ -1,6 +1,6 @@
 import React from 'react';
 import '../App.css';
-import { Layout, Menu } from 'antd';
+import { Layout } from 'antd';
 import News from './News'
 const { Content } = Layout;
 
