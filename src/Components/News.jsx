@@ -12,7 +12,7 @@ for (let i = 0; i < 23; i++) {
     description:
       'Ipl News.',
     content:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris turpis tellus, scelerisque ut feugiat vitae, vestibulum ac augue. Fusce augue justo, condimentum sed commodo sit amet, maximus nec dui. Aenean diam velit, auctor scelerisque maximus ut, finibus in purus. Duis eleifend, magna ut accumsan tempor, nisi dui blandit purus, a mollis nunc dui eu orci. Vestibulum venenatis maximus laoreet. Cras condimentum dui vel urna finibus, quis accumsan lectus laoreet. Maecenas ac diam mi. Donec eget rhoncus lectus. Suspendisse nec dolor eget felis bibendum porttitor eu nec metus. Maecenas tincidunt tortor porta enim condimentum auctor. Morbi nec eros congue, euismod mauris ac, pellentesque felis. Ut eget leo sit amet leo finibus tempor',
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris turpis tellus, scelerisque ut feugiat vitae, vestibulum ac augue. Fusce augue justo, condimentum sed commodo sit amet, maximus nec dui. Aenean diam velit, auctor scelerisque maximus ut, finibus in purus. Duis eleifend, magna ut accumsan tempor, nisi dui blandit purus, a mollis nunc dui eu orci.',
   });
 }
 

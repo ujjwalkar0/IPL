@@ -83,3 +83,10 @@
   margin-top: 30px;
   height: 1500px; /* Used in this example to enable scrolling */
 }
+
+@media (max-width: 800px) {
+  .hide-mobile {
+      display:'none';
+  }
+}
+  
