@@ -1,10 +1,8 @@
 import React from 'react';
 import '../App.css';
 import { Layout, Menu } from 'antd';
-import { UserOutlined } from '@ant-design/icons';
 import News from './News'
-const { SubMenu } = Menu;
-const { Content, Sider } = Layout;
+const { Content } = Layout;
 
 function MySider() {
   return (
